@@ -10,6 +10,7 @@ p {
 	color: #F0B31D; text-align: center;
 }
 
-#slogan{
+#slogan {
 	font-style: italic;
+	background: url("images/boston.jpg");
 }
