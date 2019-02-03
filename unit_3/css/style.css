@@ -1,0 +1,17 @@
+body{
+	background-color: #212F3D;
+	background: url(images/boston.jpg);
+	background-size: cover;
+}
+
+h1 {
+	color:	white; text-align: center;
+}
+
+p {
+	color: #F0B31D; text-align: center;
+}
+
+#slogan{
+	font-style: italic;
+}
