@@ -1,11 +1,10 @@
 body{
 	background-color: #212F3D;
-	background: url("images/boston.jpg");
-	background-size: cover;
 }
 
 h1 {
 	color:	black; text-align: center;
+}
 
 p {
 	color: #F0B31D; text-align: center;
@@ -13,8 +12,4 @@ p {
 
 #slogan{
 	font-style: italic;
-}
-
-div{
-	text-align: center;
 }
