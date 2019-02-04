@@ -1,7 +1,7 @@
 body{
 	background-color: #212F3D;
 	background: url("images/boston.jpg");
-	background-size: cover;
+	background-size: auto;
 }
 
 h1 {
