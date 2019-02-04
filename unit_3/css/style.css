@@ -1,5 +1,6 @@
 body{
 	background-color: #212F3D;
+	background: url("images/boston.jpg");
 }
 
 h1 {
@@ -12,5 +13,4 @@ p {
 
 #slogan {
 	font-style: italic;
-	background: url("images/boston.jpg");
 }
