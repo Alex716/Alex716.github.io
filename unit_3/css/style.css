@@ -27,13 +27,12 @@ p {
 nav{
 	display: block;
 	align-content: center;
-	margin: 30px;
 
 }
 
 nav a{
 	color: white;
-	margin: 20px;
+	margin: 30px;
 }
 
 img{
