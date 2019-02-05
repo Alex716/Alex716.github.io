@@ -24,6 +24,12 @@ p {
 	font-family: "Playfair Display SC", sans-serif;
 }
 
+nav{
+	display: block;
+	align-content: center;
+
+}
+
 nav a{
 	color: white;
 	margin-right: 20px;
