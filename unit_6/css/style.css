@@ -69,12 +69,19 @@ nav a{
 a:link {
 	color: #F0B31D;
 	text-decoration: none;	
+	border-bottom: 1px solid #F0B31D;
 }
 
 a:hover {
 	color: #FFF;
 	text-decoration: none;
 	border-color: #FFF;
+}
+
+a:visited{
+	color: #F0B31D;
+	text-decoration: none;	
+	border-bottom: 1px solid #F0B31D;
 }
 
 section{
