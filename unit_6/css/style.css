@@ -14,7 +14,7 @@ body{
 }
 
 header{
-	background-color: #FFED74;
+	background-color: #212F3D;
 	padding: 20px 20px 15px 20px;
 	display: flex;
 	justify-content: space-between;
@@ -43,10 +43,21 @@ h2{
 	font-size: 1.25em; 
 	text-transform: uppercase;
 }
+
+h3{
+	color: #FFF; text-align: left;
+	font-family: 'Roboto Condensed', sans-serif;
+	font-weight: 200;
+	font-size: 2em; 
+	letter-spacing: 4px;
+	text-transform: uppercase;
+	text-align: left;
+	margin-left: 50px;
+}
  
 nav{
 	text-align: right;
-	background-color: #E8C66A;
+	background-color: #212F3D;
 }
 
 nav a{
@@ -92,8 +103,40 @@ img{
 	margin: 0 auto;
 }
 
+#two_column{
+	background-color: #FFB7CF;
+	border: 1px black solid;
+	padding: 20px;
+}
+
+#left{
+	background-color: white;
+	padding: 20px;
+	float: left;
+	width: 60%;
+	margin-left: 30px;
+}
+
+#right{
+	background-color: #E582A2;
+	border: 1px black solid;
+	padding: 20px;
+	margin-right: 30px;
+	float: right;
+	width: 30%;
+}
+
+.clearfix:after{
+	visibility: hidden;
+	display: block;
+	font-size: 0;
+	content: "";
+	clear: both;
+	height: 0;
+}
+
 footer{
-	background-color: #FF957E;
+	background-color: #212F3D;
 	text-align: right;
 	color: #F0B31D;
 	padding: 20px;
