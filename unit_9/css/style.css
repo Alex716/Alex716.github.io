@@ -1,0 +1,244 @@
+@import url(https://fonts.googleapis.com/css?family=Roboto+Condensed);
+@import url(https://fonts.googleapis.com/css?family=Judson);
+
+*{
+	padding: 0;
+	margin: 0;
+	box-sizing: border-box;
+}
+
+body{
+	background-color: #212F3D;
+	font-size: 18px;
+	padding-top: 7.2em;
+}
+
+header{
+	background-color: #212F3D;
+	padding: 1.25em 1.25em 1em 1.25em;
+	display: flex;
+	justify-content: space-between;
+	align-items: flex-end;
+	width: 100%;
+	position: fixed;
+	top: 0;
+	left: 0;
+	z-index: 2;
+}
+
+
+h1 {
+	color: #FFF; text-align: left;
+	font-family: 'Roboto Condensed', sans-serif;
+	font-weight: 200;
+	font-size: 3em; 
+	letter-spacing: 4px;
+	text-transform: uppercase;
+}
+
+h2{
+	color: #FFF; text-align: left;
+	font-family: 'Roboto Condensed', sans-serif;
+	font-weight: 200;
+	font-size: 1.25em; 
+	text-transform: uppercase;
+}
+
+h3{
+	color: #FFF; text-align: left;
+	font-family: 'Roboto Condensed', sans-serif;
+	font-weight: 200;
+	font-size: 2em; 
+	letter-spacing: 4px;
+	text-transform: uppercase;
+	text-align: left;
+	margin-left: 50px;
+}
+ 
+nav{
+	text-align: right;
+	background-color: #212F3D;
+}
+
+nav a{
+	display: block;
+	float: left;
+	margin-left: 30px;
+	font-family: 'Roboto Condensed', sans-serif;
+	font-size: 1em;
+	border-bottom: 1px solid #F0B31D;
+}
+
+a:link {
+	color: #F0B31D;
+	text-decoration: none;	
+	border-bottom: 1px solid #F0B31D;
+}
+
+a:hover {
+	color: #FFF;
+	text-decoration: none;
+	border-color: #FFF;
+}
+
+a:visited{
+	color: #F0B31D;
+	text-decoration: none;	
+	border-bottom: 1px solid #F0B31D;
+}
+
+section{
+	position: relative;
+}
+
+#slogan {
+	font-family: 'Judson', serif;
+	font-size: 3.2em;
+	font-weight: 500;
+	letter-spacing: 2px;
+	text-transform: uppercase;
+	color: white;
+	background: rgba(33,47,61,.5);
+	position: absolute;
+	top: 50%;
+	left: 50%;
+	transform: translate(-50%,-50%);
+	text-align: center;
+	white-space: nowrap;
+	display: block;
+}
+
+img {
+	width: 100%;
+	display: block;
+	margin: 0 auto;
+}
+
+#Boston{
+	display: none;
+	color: #FFF; text-align: center;
+	font-family: 'Roboto Condensed', sans-serif;
+	font-weight: 200;
+	font-size: 1.25em; 
+	text-transform: uppercase;
+}
+
+#two_column{
+	background-color: #FFB7CF;
+	border: 1px black solid;
+	padding: 20px;
+}
+
+#left{
+	background-color: white;
+	padding: 20px;
+	float: left;
+	width: 60%;
+	margin-left: 30px;
+}
+
+#right{
+	background-color: #E582A2;
+	border: 1px black solid;
+	padding: 20px;
+	margin-right: 30px;
+	float: right;
+	width: 30%;
+}
+
+.clearfix:after{
+	visibility: hidden;
+	display: block;
+	font-size: 0;
+	content: "";
+	clear: both;
+	height: 0;
+}
+
+footer{
+	background-color: #212F3D;
+	text-align: right;
+	color: #F0B31D;
+	padding: 20px;
+	font-family: 'Roboto Condensed', serif;
+}
+
+@media screen and (max-width: 1069px){
+	nav {
+		margin-top: 20px;
+	}
+
+	nav a{
+		display: block;
+		text-align: center;
+		font-size: 18px;
+		width: 200px;
+		border-bottom: none;
+		margin: 0px 0px 10px 0px;
+		float: none;
+	}
+
+	a:link, a:visited{
+		border-bottom: none;
+	}
+
+	header{
+		position: static;
+		padding-top: 0px;
+		justify-content: center;
+		align-items: center;
+		flex-direction: column;
+	}
+
+	h1, h2{
+		text-align: center;
+	}
+
+	#slogan{
+		font-size: 3em;
+	}
+}
+
+@media screen and (max-width: 720px){
+	#slogan{
+	font-size: 2.5em;
+}
+
+@media screen and (max-width: 645px){
+	#slogan{
+	font-size: 2em;
+}
+
+@media screen and (max-width: 520px){
+	#slogan {
+		display: none;
+}
+	#Boston{
+		display: block;
+	}
+	
+	h2{
+		display: none;
+	}
+
+@media screen and (max-width: 320px){
+	#slogan {
+		display: none;
+}
+	#Boston{
+		display: block;
+		font-size: 1em;
+	}
+
+	h1{
+		font-size: 2.5em;
+	}
+	
+	h2{
+		display: none;
+	}
+
+	nav a{
+		font-size: 20px;
+	}
+}
