@@ -225,13 +225,14 @@ footer{
 	}
 }
 
-@media screen and (max-width: 400px){
+@media screen and (max-width: 470px){
 	#slogan {
 		display: none;
-}
+	}
+
 	#Boston{
 		display: block;
-		font-size: 16px;
+		font-size: 1em;
 	}
 
 	h1{
